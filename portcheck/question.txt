@@ -1,0 +1,12 @@
+Instructor : John Ayala
+
+Project – Check if SSH on Linux machine is responsive
+Create a python program that does the following:
+Accepts a hostname or IP address as an argument
+Checks if connection to port 22 is possible on the hostname or IP address
+Print some output to the screen telling if port 22 is accessible or not
+Hints
+Take a look at the following modules:
+argparse
+sys
+socket
