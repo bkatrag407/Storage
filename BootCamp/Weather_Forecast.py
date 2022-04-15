@@ -8,6 +8,6 @@ def weather_forecast():
     city=output['city']['name']
     print('City,Time,Temparature,Condition')
     for item in items:
-        print(city,',',item['dt_txt'],',',item['main']['temp'],',',item['weather'][0]['description'])
+        print(city + "," + item['dt_txt'] + "," + str(item['main']['temp']) +  "," + item['weather'][0]['description'])
 
 weather_forecast()
